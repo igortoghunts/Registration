@@ -39,6 +39,32 @@
       "gender": "male",
       "company": "ULTRIMAX",
       "email": "marshmccall@ultrimax.com"
+    },
+    {
+      "id": 6,
+      "first_name": "Fred",
+      "last_name": "Blair",
+      "email": "freddyb34@gmail.com"
+    },
+    {
+      "email": "sadfasdfs@sg",
+      "userName": "sdfddddddddddddddd",
+      "password": "ddddddddddddddddd",
+      "checkbox": true,
+      "id": 7
+    },
+    {
+      "email": "sadfasdfs@sgsdfsdf",
+      "userName": "sdfddddddddddddddd",
+      "password": "ddddddddddddddddd",
+      "checkbox": true,
+      "id": 8
+    },
+    {
+      "userName": "asdasd",
+      "password": "asdasd",
+      "checkbox": true,
+      "id": 9
     }
   ]
 }

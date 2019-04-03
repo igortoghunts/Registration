@@ -5,7 +5,7 @@ import Checkbox from './Input/Checkbox';
 import Input from './Input/Input';
 
 class formValues  extends Component {
-
+    
     render(){
         return (            
             <div className="ui four column grid segment">
