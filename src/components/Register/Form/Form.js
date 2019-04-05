@@ -10,7 +10,7 @@ class formValues  extends Component {
         return (            
             <div className="ui four column grid segment">
                 <div className="ui segment inverted">
-                    <form className="ui  form " onSubmit={this.props.handleSubmit(this.props.onSubmit)}> 
+                    <form className="ui inverted form " onSubmit={this.props.handleSubmit(this.props.onSubmit)}> 
                             <div className="">
                                     <div className="field">
                                         <Field name="email" type="email" label="Email" component={Input} />

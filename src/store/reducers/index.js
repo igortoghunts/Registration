@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import { reducer as formReducer} from 'redux-form';
+import { reducer as form} from 'redux-form';
 
-import { checkUser } from './user';
+import { checkbox } from './checkbox';
 
-export default combineReducers({ checkUser, formReducer});
+export default combineReducers({ checkbox,  form});

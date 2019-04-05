@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router} from 'react-router-dom';
-
+import { Route } from 'react-router-dom';
+ 
 import Header from './Header/Header';
 import Register from './Register/Register';
 
@@ -9,12 +9,8 @@ import Register from './Register/Register';
 const App = () => {
     return (
         <div className="ui container">
-            <Router>
-                <div className="ui segment">
-                    <Header />
-                    <Register />
-                </div>
-            </Router>
+            <Header />
+            <Route path="/register" component={Register}/>
         </div>
     );
 };

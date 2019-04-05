@@ -1,32 +1,21 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { checkUser } from '../../store/ations';
 import Form from './Form/Form';
+import { auth } from '../../store/ations';
+import { checkbox } from '../../store/ations';
 
 class Register extends Component{
 
-    state = {
-        user: ""
+    onSubmit = (formValues) => {
+        if(typeof formValues.checkbox === undefined) formValues.checkbox = false;
+        this.props.checkbox(formValues.checkbox);
+        console.log(this.props.checked)
     }
-
-    onSubmit = () => {
-        this.props.checkUser(this.props.user.values);
-    }
-
-    // state = {
-    //     email: ''
-    //   }
-    
-    //   handleSubmit = () => {
-    //     this.props.addUser(this.state.email);
-    //   }
-    
 
     render(){
-        // console.log(this.props.user.userInfo)
         return (
-            <div>
+            <div className="ui placeholder segment">
                 <Form onSubmit={this.onSubmit} />
             </div>
         );
@@ -35,8 +24,15 @@ class Register extends Component{
 
 const mapStateToProps = state => {
     return {
-        user: state.formReducer.userInfo
+        // user: state
+        checked: state.checkbox.checked
     }
 };
 
-export default connect(mapStateToProps,{ checkUser })(Register);
+const mapDispatchToProps =  { checkbox };
+
+export default connect(mapStateToProps, mapDispatchToProps)(Register);
+
+
+
+

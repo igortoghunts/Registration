@@ -4,7 +4,7 @@ const input = ({ input, label,type }) => {
     return (
         <div>
             <label>{label}</label>
-            <input type={type} onChange={input.onChange} defaultValue="" autoComplete="" />
+            <input type={type} {...input} autoComplete="" />
         </div>
     );
 };
