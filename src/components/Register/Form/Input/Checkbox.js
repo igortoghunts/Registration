@@ -9,4 +9,5 @@ const checkbox = ({ input, label }) => {
     );
 };
 
+
 export default checkbox;

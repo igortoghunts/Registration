@@ -16,116 +16,18 @@
       "id": 3
     },
     {
-      "email": "igor@m",
-      "password": "igor",
+      "email": "serge.taranyan@mail.ru",
+      "password": "$2a$10$yqARXIxGWGwZI8WDiK.mBevMqSY0AG9C8aWZaIN20a1YK7qFjLTQG",
+      "userName": "zxcfZSXcaZSxcZXc",
+      "checkbox": true,
       "id": 4
     },
     {
-      "email": "igor@m",
-      "password": "igor",
+      "email": "serge.taraanyan@mail.ru",
+      "password": "$2a$10$AYkHAfrupwh9aiEARwOnaO6tn8392iNNsB6DIB2nwxHvP.fzURTjm",
+      "userName": "zxcfZSXcaZSxcZXc",
+      "checkbox": true,
       "id": 5
-    },
-    {
-      "email": "werwe@f",
-      "userName": "ef",
-      "password": "ef",
-      "id": 6
-    },
-    {
-      "email": "werwe@f",
-      "password": "ef",
-      "id": 7
-    },
-    {
-      "email": "werwe@f",
-      "password": "ef",
-      "id": 8
-    },
-    {
-      "email": "werwe@f",
-      "password": "ef",
-      "id": 9
-    },
-    {
-      "email": "werwe@f",
-      "password": "ef",
-      "id": 10
-    },
-    {
-      "email": "werwe@f",
-      "password": "ef",
-      "id": 11
-    },
-    {
-      "email": "werwe@fiqwhwqe",
-      "password": "$2a$10$7qHyOLqIn8lf0dG8eiIhTuNBZbXLUohV45xQd5XsXzJch.t5tNfPq",
-      "userName": "efqweqweqwe",
-      "checkbox": true,
-      "id": 12
-    },
-    {
-      "email": "lauhhklhkhlkhh@ljk",
-      "password": "$2a$10$AiUNhSEfViIJWh8xblZ5TOXyJOyjMbDUu5pgfcVj118/20rRXhqha",
-      "userName": "asdasdasdasdasdasd",
-      "checkbox": true,
-      "id": 13
-    },
-    {
-      "email": "wqeqweqwe@ee",
-      "password": "$2a$10$YJdipxc/sVNy2.Nk2gt.VeTfT7xyE63ld9QaGTvnAxfB4yjWpeYAK",
-      "userName": "qweqweeeee",
-      "checkbox": true,
-      "id": 14
-    },
-    {
-      "email": "jkhkjH@kjhkhkhsadasd",
-      "password": "$2a$10$ao/3wbhYedDVW6arukm.S.dKkiP863yvc4ecFNHbcyrhu3KEn/G6i",
-      "userName": "asdasdasdasd",
-      "id": 15
-    },
-    {
-      "email": "jkhkjH@kjhkhkhsadasd",
-      "password": "$2a$10$CR0vGTziMlUU.4un8wY9euJusFM4JMSYcfXZYhx9VRvCgLXkdfi2e",
-      "id": 16
-    },
-    {
-      "email": "jkhkjH@kjhkhkhsadasd",
-      "password": "$2a$10$lg3fBGJhvci8fXN0XNH0Ie5CYmDBeu4DZriIPuo.hYo5Xff0bwVYW",
-      "id": 17
-    },
-    {
-      "email": "jkhkjH@kjhkhkhsadasd",
-      "password": "$2a$10$HHpN52k89QsVRANLfbtvcOKLFFBqgmJgjpS9GrFMQxWy6W.hSZwz.",
-      "id": 18
-    },
-    {
-      "email": "asdasd@d",
-      "password": "$2a$10$6b06piRHmgICoT1JrmFi.OsuULcHLKWijQnT0YyT8zObNZ4zMRUjy",
-      "userName": "dasdasd",
-      "checkbox": true,
-      "id": 19
-    },
-    {
-      "email": "asdasd@d",
-      "password": "$2a$10$tqcOrfQnKn0c.BciAGY.aObrZUQhggUs7tTQUwlpfzjKMDZFzC9Dq",
-      "id": 20
-    },
-    {
-      "email": "asdasd@d",
-      "password": "$2a$10$fvFbEdUWcDNaO5newBDNZeGgIChykvJFs2c7eJZas3BDvUR9jRhA6",
-      "id": 21
-    },
-    {
-      "email": "asdasd@ddd",
-      "password": "$2a$10$suaTW9TLFt1oDGCfOL6ipOmfWDseYtybgXdsdTbpC3Iaxd2D.mExm",
-      "userName": "dasdasd",
-      "checkbox": false,
-      "id": 22
-    },
-    {
-      "email": "asdasd@ddd",
-      "password": "$2a$10$Am2PUwNzK4fCzGfArkUUtO6r9MuNCUwDUOoeuHubCmmENjqO0CilS",
-      "id": 23
     }
   ]
 }

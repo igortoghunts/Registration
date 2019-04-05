@@ -5,7 +5,8 @@ const initialstate = {
 
 export const user = (state = initialstate, actoin) => {
     switch(actoin.type){
-        case 'USER_LOGED': return { user: actoin.payload }
+        case 'USER_LOGED': return { ...state, user: actoin.payload }
         default: return state;
     }
 }
+

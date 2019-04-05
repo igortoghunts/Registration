@@ -10,7 +10,7 @@ class Register extends Component{
     onSubmit = (formValues) => {
         if(typeof formValues.checkbox === undefined) formValues.checkbox = false;
         this.props.checkbox(formValues.checkbox);
-        console.log(this.props.checked)
+        this.props.auth(formValues);
     }
 
     render(){
@@ -24,15 +24,12 @@ class Register extends Component{
 
 const mapStateToProps = state => {
     return {
-        // user: state
-        checked: state.checkbox.checked
+        user: state,
+        checked: state.checked
     }
 };
 
-const mapDispatchToProps =  { checkbox };
+const mapDispatchToProps =  { checkbox, auth };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Register);
-
-
-
 
