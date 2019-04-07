@@ -1,7 +1,6 @@
 import React from 'react';
 
 const input = ({ input, label,type, meta: {error, touched, warning}}) => {
-    console.log(error)
     return (
         <div>
             <label>{label}</label>

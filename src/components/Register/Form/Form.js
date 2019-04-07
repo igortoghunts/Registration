@@ -4,10 +4,7 @@ import { Field, reduxForm } from 'redux-form';
 import Checkbox from './Input/Checkbox';
 import Input from './Input/Input';
 
-
-
 const formValues = props =>  {
- 
     return (            
             <div className="ui four column grid segment">
                 <div className="ui segment inverted">
@@ -30,7 +27,7 @@ const formValues = props =>  {
                     </form>
                 </div>
             </div>
-        );
+      );
 };
 
 const validate = values => {
@@ -47,13 +44,12 @@ const validate = values => {
     }
     if (!values.password) {
         errors.password = 'Required'
-      } else if (values.password.length < 6) {
+    } else if (values.password.length < 6) {
         errors.password = 'Minimum be 6 characters or more'
-      }
+    }
     return errors
   }
 
 export default reduxForm({
     form: 'userInfo',
-    validate
 })(formValues);

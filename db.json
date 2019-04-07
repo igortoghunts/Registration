@@ -1,32 +1,34 @@
 {
   "users": [
     {
-      "email": "mnb@jg",
-      "password": "$2a$10$TnJuHfgrZBdfpoplvEuzPeFH.eODldFr1oWOxmH2BpzMTknvVBGEa",
+      "email": "sergan@mail.ru",
+      "password": "$2a$10$gcgEadO2zWggFjOObIUzveidqzcY6MUdFdgH3LXvOFYN/GPidF.12",
+      "userName": "igorigor",
+      "checkbox": false,
       "id": 1
     },
     {
-      "email": "mnb@jg",
-      "password": "$2a$10$rP7xe3zpf0qsw1.KkbuRIeEJbMmfG7Q9Djc3xd/0y3/8ziQ4lpMIO",
+      "email": "igor.toxunc1@mail.ru",
+      "password": "$2a$10$Ip.ztZJ9GiSUO2/gMK3pHuDsYBmmzH3SUIeImDJumHi6589esNG8O",
       "id": 2
     },
     {
-      "email": "igor@m",
-      "password": "$2a$10$p.dLNS477/vikSdaI7Xhnu8FhZ3fivqH0NkGTs5kF46DoRs6zb1dm",
+      "email": "igor.toxunc1@mail.ru",
+      "password": "$2a$10$x2FE8Bn8NliKSKJbPhxz7esLXiKjbrb1MwOvPMaFwlooNJhJfWi82",
+      "userName": "sdsdsnklklnk",
+      "checkbox": false,
       "id": 3
     },
     {
-      "email": "serge.taranyan@mail.ru",
-      "password": "$2a$10$yqARXIxGWGwZI8WDiK.mBevMqSY0AG9C8aWZaIN20a1YK7qFjLTQG",
-      "userName": "zxcfZSXcaZSxcZXc",
-      "checkbox": true,
+      "email": "sergan@mail.ru",
+      "password": "$2a$10$yEHyUoSBDR95WV/slARIPec4GfOcs2ecQY2vFdqudjwIt0tEa4QSm",
       "id": 4
     },
     {
-      "email": "serge.taraanyan@mail.ru",
-      "password": "$2a$10$AYkHAfrupwh9aiEARwOnaO6tn8392iNNsB6DIB2nwxHvP.fzURTjm",
-      "userName": "zxcfZSXcaZSxcZXc",
-      "checkbox": true,
+      "email": "sergan@mail.ru",
+      "password": "$2a$10$dgzxFcLtLLpR1vsYIEIRZ.sCyaMorKsAcZkf3InZt6AtMlIyn/S1m",
+      "userName": "igorigor",
+      "checkbox": false,
       "id": 5
     }
   ]

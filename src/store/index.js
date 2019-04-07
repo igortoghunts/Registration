@@ -10,5 +10,5 @@ const store = createStore(
    mainReducer,
    storeEnhancers(applyMiddleware(thunk))
 );
-store.subscribe(()=> console.log(store.getState()))
+
 export default store;

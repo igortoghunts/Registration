@@ -1,2 +1,1 @@
-export { auth } from './Auth';
-export { checkbox} from './checkbox';
+export { auth } from './auth';

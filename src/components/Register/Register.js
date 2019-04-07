@@ -1,19 +1,31 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Redirect, withRouter } from 'react-router-dom';
 
 import Form from './Form/Form';
 import { auth } from '../../store/ations';
-import { checkbox } from '../../store/ations';
+
 
 class Register extends Component{
 
     onSubmit = (formValues) => {
-        if(typeof formValues.checkbox === undefined) formValues.checkbox = false;
-        this.props.checkbox(formValues.checkbox);
+        if(!formValues.checkbox){
+            formValues.checkbox = false;
+        }
+        if(formValues.checkbox){
+            console.log(this.props.history)
+        }
         this.props.auth(formValues);
     }
-
+    
     render(){
+        
+        if(this.props.error){
+            return <div>{this.props.error.message}</div>
+        }
+        if(this.props.loading){
+            return <div>LOADING...</div>
+        }
         return (
             <div className="ui placeholder segment">
                 <Form onSubmit={this.onSubmit} />
@@ -24,12 +36,17 @@ class Register extends Component{
 
 const mapStateToProps = state => {
     return {
-        user: state,
-        checked: state.checked
+        loading: state.auth.loading,
+        error: state.auth.error,
+        token: state.auth.token,
+        user: state.auth.user,
+        checked: state.auth.checkbox
     }
 };
 
-const mapDispatchToProps =  { checkbox, auth };
-
+const mapDispatchToProps =  { auth }
 export default connect(mapStateToProps, mapDispatchToProps)(Register);
+
+
+
 

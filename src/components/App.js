@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
- 
+
 import Header from './Header/Header';
 import Register from './Register/Register';
 
